@@ -1,0 +1,8 @@
+{
+  "name": "firefox",
+  "version": "1.0",
+  "description": "firefox Sota package",
+  "type": "app",
+  "install": "install.sh",
+  "uninstall": "uninstall.sh"
+}

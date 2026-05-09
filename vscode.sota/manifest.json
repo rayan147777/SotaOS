@@ -1,0 +1,8 @@
+{
+  "name": "vscode",
+  "version": "1.0",
+  "description": "vscode application for Sota OS",
+  "type": "app",
+  "install": "install.sh",
+  "uninstall": "uninstall.sh"
+}
