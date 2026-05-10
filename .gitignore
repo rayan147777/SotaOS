@@ -1,0 +1,11 @@
+# Build artifacts
+*.iso
+*.img
+*.tar.gz
+
+# Cubic / build dirs
+custom-root/
+custom-disk/
+
+# Temporary
+*.log
