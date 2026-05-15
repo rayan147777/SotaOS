@@ -1,0 +1,19 @@
+body {
+    background: #0f172a;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+a {
+    background: #2563eb;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+}
