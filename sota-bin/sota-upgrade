@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo "Updating Sota OS..."
+
+sudo apt update
+sudo apt upgrade -y
+
+echo "Reloading system services..."
+sudo systemctl daemon-reload
+
+echo "Cleaning..."
+sudo apt autoremove -y
+
+echo "Sota updated successfully."

@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "Installing Windows tools..."
+
+powershell.exe winget install Microsoft.VisualStudioCode
+powershell.exe winget install Git.Git
+powershell.exe winget install Python.Python.3.12
+powershell.exe winget install Docker.DockerDesktop
+
+echo "Windows tools installed."

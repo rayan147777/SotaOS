@@ -1,0 +1,27 @@
+#!/bin/bash
+
+APP=$1
+
+if [ -z "$APP" ]; then
+  echo "Usage: create-sota-package <name>"
+  exit 1
+fi
+
+mkdir -p $APP.sota
+cd $APP.sota
+
+cat > manifest.json <<EOF
+{
+  "name": "$APP",
+  "version": "1.0",
+  "description": "$APP Sota package",
+  "type": "app",
+  "install": "install.sh",
+  "uninstall": "uninstall.sh"
+}
+EOF
+
+touch install.sh uninstall.sh
+chmod +x install.sh uninstall.sh
+
+echo "Package $APP.sota created"

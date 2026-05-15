@@ -1,0 +1,31 @@
+#!/bin/bash
+
+echo "=================================="
+echo "        SOTA - HELP MENU"
+echo "=================================="
+
+echo ""
+echo "SYSTEM INFO:"
+echo "  os-info        -> infos système"
+echo "  hostname       -> nom de la machine"
+echo "  uname -a       -> version kernel"
+echo ""
+
+echo "PACKAGE MANAGEMENT:"
+echo "  sudo apt update"
+echo "  sudo apt install <package>"
+echo "  sudo apt upgrade"
+echo ""
+
+echo "FILES:"
+echo "  ls             -> lister fichiers"
+echo "  cd             -> changer dossier"
+echo "  pwd            -> chemin actuel"
+echo ""
+
+echo "SOTA CUSTOM:"
+echo "  help           -> ce menu"
+echo "  sota-info      -> infos Sota (si tu le crées)"
+echo ""
+
+echo "=================================="

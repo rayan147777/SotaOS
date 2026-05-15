@@ -1,11 +1,24 @@
-# Build artifacts
+rootfs/
+chroot/
+iso/
 *.iso
+
+proc/
+sys/
+dev/
+tmp/
+run/
+
+var/cache/
+var/tmp/
+var/log/
+
 *.img
-*.tar.gz
+*.squashfs
 
-# Cubic / build dirs
+.cache/
+
 custom-root/
-custom-disk/
-
-# Temporary
+sota-live/
+*.lock
 *.log
