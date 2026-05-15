@@ -1,7 +1,0 @@
-{
-  "name": "sota-core-update",
-  "version": "1.0",
-  "type": "system-update",
-  "description": "Core updates for Sota OS",
-  "install": "install.sh"
-}

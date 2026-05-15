@@ -1,9 +1,0 @@
-{
-  "apps": [
-    {
-      "name": "hello-world",
-      "repo": "apps/hello-world",
-      "version": "1.0"
-    }
-  ]
-}
