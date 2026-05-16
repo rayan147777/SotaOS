@@ -1,0 +1,7 @@
+{
+  "name": "firefox",
+  "version": "1.0",
+  "type": "app",
+  "description": "Mozilla Firefox browser",
+  "install": "install.sh"
+}

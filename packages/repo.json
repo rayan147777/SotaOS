@@ -1,0 +1,16 @@
+{
+  "name": "Sota Repository",
+  "version": "1.0",
+  "packages": [
+    {
+      "name": "firefox",
+      "type": "app",
+      "path": "apps/firefox.sota"
+    },
+    {
+      "name": "sota-core-update",
+      "type": "system",
+      "path": "updates/sota-core-update-1.0"
+    }
+  ]
+}

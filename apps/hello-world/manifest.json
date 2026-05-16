@@ -1,0 +1,6 @@
+{
+  "name": "Hello World",
+  "version": "1.0",
+  "exec": "app.sh",
+  "type": "script"
+}
